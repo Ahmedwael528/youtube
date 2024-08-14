@@ -14,8 +14,8 @@ def banner():
 ╱╰╮╭╯╱╱┃┃╱╱╭╯╰╯┃╭╮┃╰╯╰╯┃╭╮┫┃┃╭╮┃╭╮┃╭╮┃┃━┫╭╯
 ╱╱┃┃╱╱╱┃┃╱╱╰━━━┻━━╯╰╯╰╯╰╯╰┻━┻━━┻╯╰┻━━┻━━┻╯
 -------------------------------------------
-Author -Rajkishor Patra
-GitHub -imrj569
+Author -Weloo00
+GitHub -Ahmedwael528
 ------------------------------------------- 
     ''')
     print(Fore.YELLOW + '''This script is download all youtube videos in 720p 
@@ -78,7 +78,7 @@ if __name__ == "__main__":
             delete_first_line("urls.txt")
         #if the os is linux/termux it save all videos in Download/YT_Downloader folder
         else:
-            output_path = "/data/data/com.termux/files/home/storage/downloads/YT_Downloader"
+            output_path = "Here_My_Dear/YT_Downloader"
             download_video(video_url, output_path)
             delete_first_line("urls.txt")
 
